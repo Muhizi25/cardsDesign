@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: darkslategrey;
+  overflow-x: hidden;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #021424;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  color: whitesmoke;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card h1 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card-img {
+  background-color: aquamarine;
+  height: 170px;
+  margin-bottom: 1rem;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgcar1 {
+  background-image: url(images/caar11.jpg);
+}
+
+.imgcar2 {
+  background-image: url(images/car2.jpg);
+}
+
+.imgcar3 {
+  background-image: url(images/car3.jpg);
+}
+
+.card a {
+  background-color: black;
+  display: block;
+  padding: 8px 5px;
+  color: white;
+  margin: 3px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: #3e3e3e;
+  color: white;
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/*# sourceMappingURL=style.css.map */
